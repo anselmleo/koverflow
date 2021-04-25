@@ -4,8 +4,12 @@ import express from 'express';
 import winston from 'winston';
 import logging from './startup/logging';
 import logger from './startup/logger';
+import db from './startup/db';
 import cors from './startup/cors';
 import routes from './startup/routes';
+
+// connect db
+db();
 
 // create server
 const app = express();

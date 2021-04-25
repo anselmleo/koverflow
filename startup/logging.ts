@@ -13,5 +13,6 @@ export default () => {
   });
 
   // save logs to file
+  winston.add(new winston.transports.Console());
   winston.add(new winston.transports.File({ filename: 'logfile.log' }));
 };
