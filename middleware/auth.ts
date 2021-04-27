@@ -1,10 +1,14 @@
 import MIDDLEWARE_AUTH_CONSTANTS from '../config/contants';
 import jwt from 'jsonwebtoken';
 import config from 'config';
+import db from '../config/db/models';
+// import response from '../services/response';
+// import { ApiLog } from '../config/db/models/apiLog';
 
-// const mongoose = require('mongoose');
-// const { User } = require('../models/user');
-// const { ApiLog } = require('../models/apiLog');
+db.User.findAll({})
+  .then((result: object) => console.log('the result is :', result))
+  .catch((err: object) => console.error(err));
+
 // const response = require('../services/response');
 
 // function test(tempObj) {
