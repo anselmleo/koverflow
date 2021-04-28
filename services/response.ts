@@ -57,8 +57,3 @@ export default {
   redirect,
   validationErrors
 };
-// module.exports.withDataAndMsg = withDataAndMsg;
-// module.exports.withData = withData;
-// module.exports.error = error;
-// module.exports.redirect = redirect;
-// module.exports.validationErrors = validationErrors;
