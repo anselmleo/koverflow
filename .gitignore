@@ -67,8 +67,6 @@ uploads/
 #mybackups
 .backupDefault.json
 
-#my config jsons
-config/
 
 #pm2 config file
 ecosystem.config.
