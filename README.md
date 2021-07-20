@@ -7,9 +7,9 @@
 <a href="#"><img src="https://img.shields.io/badge/licence-mit-f39f37" alt="License"></a>
 </p>
 
-## Korapay Tasks 
+## Korapay Koverflow 
 
-To create a stackoverflow clone.
+A stackoverflow clone.
 
 
 
